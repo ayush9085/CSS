@@ -1,9 +1,9 @@
-/* reset some default styles */
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}       
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -30,3 +30,22 @@ header {
   color: #ffffff;
   padding: 20px 0;
 }
+nav {
+  float: right;
+  margin-top: 10px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}       
