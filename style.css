@@ -1,5 +1,53 @@
-header {
-  background: #54aae0;
-  color: #ffffff;
-  padding: 20px 0;
+/* now we we'll write the css code for the index.html file */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666666;
+    line-height: 1.5;
+}
+
+a {
+    color: #54aae0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+li:hover {
+    background-color: #f9f9f9;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
