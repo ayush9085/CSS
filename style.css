@@ -15,3 +15,29 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
+.container3 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a0d468;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.container h2 {
+    color: #fff;
+}
+.container2 h2 {
+    color: #fff;
+}
+.container3 h2 {
+    color: #fff;
+}
+.container p {
+    color: #fff;
+}
+.container2 p {
+    color: #fff;
+}
+.container3 p {
+    color: #fff;
+}
