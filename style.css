@@ -73,3 +73,7 @@ body {
     margin: 0;
     padding: 0;
 }
+/* all headings in middle */
+h1, h2, h3 {
+    text-align: center;
+}   
