@@ -1,92 +1,30 @@
- /* now we'll add modern css instead of basic one */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-}       
-h1 {
-    color: #4CAF50;
-    text-align: center;
+ /* lets add a nav bar css */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
 }
-p {
-    line-height: 1.6;
-    margin: 20px 0;
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+nav ul li {
+    margin: 0 15px;
 }
-a {
-    color: #4CAF50;
+nav ul li a {
+    color: white;
     text-decoration: none;
 }
-a:hover {
+nav ul li a:hover {
     text-decoration: underline;
+}   
+/* also hover on navbar buttons such as about homee etc */
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
 }
-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #45a049;
-}
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-    .container {
-        padding: 15px;
-    }
-    h1 {
-        font-size: 1.5em;
-    }
-    p {
-        font-size: 0.9em;
-    }
-    button {
-        width: 100%;
-        padding: 12px;
-    }
-}
-/* Add a footer style */
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.8em;
-    color: #777;
-}
-footer a {
-    color: #4CAF50;
-}
-footer a:hover {
-    text-decoration: underline;
-}
-/* Add a responsive image style */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    display: block;
-    margin: 20px 0;
-}
-/* Add a form style */
-form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
-form input, form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;}
+/* Add a transition effect for smoothness */
+nav ul li a {
+    transition: color 0.3s ease;
+}   
