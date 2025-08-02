@@ -1,79 +1,92 @@
-/* we'll style the div container only this time to check */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ec7f7f;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-.container2 {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #54aae0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-.container3 {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #a0d468;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-.container h2 {
-    color: #fff;
-}
-.container2 h2 {
-    color: #fff;
-}
-.container3 h2 {
-    color: #fff;
-}
-.container p {
-    color: #fff;
-}
-.container2 p {
-    color: #fff;
-}
-.container3 p {
-    color: #fff;
-}
-/* lets write css for nav bar */
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-nav li {
-    margin: 0 15px;
-}
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-nav a:hover {
-    text-decoration: underline;
-}       
-/* we'll add some styles for the body */
+ /* now we'll add modern css instead of basic one */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
-    padding: 0;
-}
-/* all headings in middle */
-h1, h2, h3 {
+    padding: 20px;
+}       
+h1 {
+    color: #4CAF50;
     text-align: center;
-}   
+}
+p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+/* Add a footer style */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
+footer a {
+    color: #4CAF50;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+/* Add a responsive image style */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 20px 0;
+}
+/* Add a form style */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
