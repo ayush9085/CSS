@@ -59,15 +59,4 @@ footer {
     width: 100%;
 }   
 /* lets add remember me and forgot password in .card*/
-.card .remember-forgot {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.card .remember-forgot a {
-    color: #58b3e3;
-    text-decoration: none;
-}
-.card .remember-forgot a:hover {
-    text-decoration: underline;
-}   
+ 
