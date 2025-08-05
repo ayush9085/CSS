@@ -59,4 +59,12 @@ footer {
     width: 100%;
 }   
 /* lets add remember me and forgot password in .card*/
- 
+
+ /* downloaded background image as bg */
+body {
+    background-image: url('Unknown.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
