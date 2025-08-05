@@ -93,3 +93,11 @@ footer {
         padding: 16px 8px;
     }
 }
+/* downloaded background image as bg */
+body {
+    background-image: url('Unknown.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
