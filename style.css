@@ -1,21 +1,19 @@
-  /* nav bar */
+/* nav bar */
 nav {
-    background-color: #58b3e3;
-    color: white;
+    background-color: #333;
+    color: #fff;
     padding: 10px 0;
-    text-align: center;
 }   
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin-right: 20px;
 }
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }       
   /* lets write css same as style.css */
