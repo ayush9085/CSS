@@ -27,21 +27,66 @@ nav ul li a {
 }
 
 .container {
-  padding: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2.5em;
+  color: #58b3e3;
+  margin-bottom: 12px;
+}
+
+.container p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 32px;
 }
 
 .product {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 20px;
+  background: #f7fafd;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(88,179,227,0.07);
+  padding: 24px 18px;
+  margin: 18px auto;
+  max-width: 400px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
 }
 
 .product h2 {
-  margin: 0 0 10px 0;
+  color: #00aaff;
+  margin-bottom: 8px;
+  font-size: 1.3em;
 }
 
 .product p {
-  margin: 5px 0;
+  color: #444;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+.product button {
+  background-color: #58b3e3;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
+
+.product button:hover {
+  background-color: #0077cc;
 }
 
 footer {
@@ -89,4 +134,19 @@ footer a:focus:not(:focus-visible) {
 }
 footer a:focus-visible {
     outline: 2px solid #58b3e3;
-    outline-offset: 2px;            
+    outline-offset: 2px;
+}
+
+@media (max-width: 800px) {
+    .product {
+        width: 90%;
+        display: block;
+        margin: 18px auto;
+    }
+    .container {
+        padding: 16px 4px;
+    }
+    .container h1 {
+        font-size: 1.5em;
+    }
+}
