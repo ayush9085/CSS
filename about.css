@@ -38,7 +38,16 @@ nav ul li a:focus {
   outline: none;
 }
 
-/* Container styles */
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #58b3e3;
+  margin-top: 32px;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+
+/* Section container */
 .container {
   max-width: 1000px;
   margin: 40px auto;
@@ -55,20 +64,22 @@ nav ul li a:focus {
   font-size: 1.5em;
 }
 
+.container img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(88,179,227,0.10);
+  background: #eaf6fb;
+}
+
 .container p {
   color: #444;
   margin-bottom: 14px;
   font-size: 1.1em;
   line-height: 1.7;
-}
-
-/* Page heading */
-h1 {
-  text-align: center;
-  color: #58b3e3;
-  margin-top: 32px;
-  font-size: 2.5em;
-  letter-spacing: 1px;
+  text-align: left;
 }
 
 /* Footer styles */
@@ -104,5 +115,9 @@ footer a:focus {
   }
   .container h2 {
     font-size: 1.1em;
+  }
+  .container img {
+    width: 120px;
+    height: 120px;
   }
 }
