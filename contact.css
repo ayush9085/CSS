@@ -1,0 +1,155 @@
+body {
+  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 18px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #ffd700;
+  outline: none;
+}
+
+/* Main heading */
+.container h1 {
+  text-align: center;
+  color: #58b3e3;
+  margin-top: 32px;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.cont p {
+  color: #444;
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+/* Contact form styles */
+.form1 {
+  max-width: 600px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+}
+
+.form1 form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form1 label {
+  font-weight: 500;
+  color: #00aaff;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.form1 input,
+.form1 textarea {
+  padding: 10px;
+  border: 1px solid #b3d8ef;
+  border-radius: 6px;
+  font-size: 1em;
+  background: #f7fafd;
+  transition: border 0.2s;
+  resize: vertical;
+}
+
+.form1 input:focus,
+.form1 textarea:focus {
+  border-color: #58b3e3;
+  outline: none;
+}
+
+.form1 button {
+  background-color: #58b3e3;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 6px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.form1 button:hover {
+  background-color: #0077cc;
+}
+
+/* Footer styles */
+footer {
+  background-color: #58b3e3;
+  color: white;
+  text-align: center;
+  padding: 16px 0 10px 0;
+  margin-top: 40px;
+  border-radius: 0 0 10px 10px;
+  font-size: 1em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #ffd700;
+  outline: none;
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+  .container,
+  .form1 {
+    padding: 16px 4px;
+    font-size: 1em;
+  }
+  .container h1 {
+    font-size: 1.5em;
+  }
+}
