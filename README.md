@@ -1,1 +1,2 @@
-Was working on this project from scratch for learning we dev through my udemy course but now it is just an ai copy paste code of copilot,althpugh i undesrstand most part of it.
+ i was learning css in this project with my udemy course but now most of thhe code is written by copilot and lil bit edited by me.although i understand all the concepts completely.
+ learned basic css like background img,tetx color,font,div,margin.padding,hovwer effect etc.
