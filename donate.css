@@ -91,27 +91,7 @@ nav ul li a:focus {
   margin-bottom: 10px;
 }
 
-/* Footer styles */
-footer {
-  background-color: #58b3e3;
-  color: white;
-  text-align: center;
-  padding: 16px 0 10px 0;
-  margin-top: 40px;
-  border-radius: 0 0 10px 10px;
-  font-size: 1em;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-footer a:hover,
-footer a:focus {
-  color: #ffd700;
-  outline: none;
-}
+ 
 
 /* Responsive design */
 @media (max-width: 700px) {
